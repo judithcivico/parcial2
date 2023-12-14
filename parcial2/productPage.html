@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color:rgb(189, 189, 189);
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        nav img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+            background-color: #ffffff;
+            padding: 10px 10px;
+            box-shadow: 2px 1px 5px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+    
+        .contenido {
+            max-width: 1100px;
+            width: 100%;
+            margin: 40px auto;
+            display: flex;
+        }
+
+        .mostrador {
+            width: 100%;
+            transition: .5s ease;
+            margin-bottom: 50px;
+        }
+
+        .mostrador .fila  {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .mostrador .fila .item {
+            max-width: 210px;
+            padding: 30px;
+            height: 280px;
+            text-align: center;
+            margin: 5px 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: .5s;
+        }
+
+        .mostrador .fila .item:hover {
+            background-color: rgb(212, 212, 212);
+        }
+
+        .mostrador .fila .item img {
+            width: 100%;    
+            margin: 5px 0;
+        }
+        h1{
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            padding: 20px 0;
+            position:relative;
+            bottom: 0;
+            width: 100%;
+            }
+
+            footer a{
+                color: white;
+                text-decoration: none;
+            }
+            .imgText{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color:black;
+            color: white;
+        }
+        .imgText img{
+            width: 30px;
+        }
+
+        .text{
+            margin-top: 160px;
+            width: 400px;
+        }
+</style>
+<body>
+    <nav>
+        <img src="assets/logo.png" alt="Logo de la plataforma" width="250px">
+        <ul>
+            <li><a href="mainPage.html">Main</a></li>
+            <li><a href="">Merch</a></li>
+            <li><a href="descriptionPage.html">Descripcion</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Merch</h1>
+
+    <p style="text-align: center;"> Aqui encontraras todo el merch oficial que necesites</p>
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/a.png" alt="imagen">
+                        <p class="descripcion">Camiseta Gris Claro</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/o.png" alt="imagen">
+                        <p class="descripcion">Sudadera Amarilla</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/p.png" alt="imagen">
+                        <p class="descripcion">Sudadera Gris</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/t.png" alt="imagen">
+                        <p class="descripcion">Camiseta Marrón</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/o.png" alt="imagen">
+                        <p class="descripcion">Sudadera Roja</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/t.png" alt="imagen">
+                        <p class="descripcion">Camiseta morada</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/a.png" alt="imagen">
+                        <p class="descripcion">Sudadera Negra</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/p.png" alt="imagen">
+                        <p class="descripcion">Camiseta Negra</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/t.png" alt="imagen">
+                        <p class="descripcion">Sudadera Azul</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/p.png" alt="imagen">
+                        <p class="descripcion">Sudadera Azul Oscuro</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/o.png" alt="imagen">
+                        <p class="descripcion">Camiseta Granate</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="assets/a.png" alt="imagen">
+                        <p class="descripcion">Camiseta Azul</p>
+                        <span class="precio">20€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <a href="politica.html">Politica de privacidad</a>
+</footer>
+</html>
